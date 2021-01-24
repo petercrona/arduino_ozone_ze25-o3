@@ -9,3 +9,5 @@ by `cat /dev/ttyACM0 > data` for instance (on Arch Linux at least).
 Sorry if I offend anyone by not following Arduino or C++ conventions,
 this is the first time I play around with an Arduino and first time
 in many years I code C++.
+
+The sensor used is Winsen ZE25-O3, see: https://www.winsen-sensor.com/sensors/o3-gas-sensor/ze25-o3.html
