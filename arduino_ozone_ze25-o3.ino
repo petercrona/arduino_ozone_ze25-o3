@@ -11,7 +11,7 @@ void setup() {
 void loop() {
   int ppb = sensor.readPPB();
 
-  if (ppb > -1) {
+  if (ppb > 0) {
     Serial.println(ppb);
     delay(1000);
   }
