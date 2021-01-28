@@ -4,7 +4,7 @@ Calculates correlation between data collected with a Winsen ZE25-O3 (indoor) and
 Berlin Air Quality Station MC174 (https://luftdaten.berlin.de/station/mc174).
 
 Furthermore, a simple linear model is fitted using linear regression. This model
-can be used to given the voltage (represented by a integer between 0 and 1023)
+can be used to given the voltage (represented by an integer between 0 and 1023)
 predict the outdoor NO2 concentration.
 
 This can be useful, as it can be combined with outdoor ratios
@@ -13,6 +13,19 @@ to estimate indoor NO2. If this is done under "normal circumstances" in the indo
 it might give you a decent estimate of NO2 indoor also under non-normal cirumstances,
 for instance if you are testing air purification technologies or are doing something that
 might generate NO2.
+
+# Results
+
+PICTURE HERE!
+
+= Fitted model:
+f(x) = 7.51826819982211x + -636.9571501802109
+R2 score: 0.35825645144510676
+
+= Correlation between analogVal and NO2:
+Pearson (correlation, pvalue): (0.5985452793608078, 0.00023368558497874713)
+SpearmanrResult(correlation=0.5725805477395661, pvalue=0.0004975120927077136)
+KendalltauResult(correlation=0.367588047373096, pvalue=0.0031259403585217425)
 
 # NO2? Shouldn't it be O3?
 During the experiment we found stronger correlation between the sensor's voltage and NO2 than O3.
