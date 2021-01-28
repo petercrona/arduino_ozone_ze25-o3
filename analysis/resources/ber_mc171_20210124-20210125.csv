@@ -1,0 +1,15 @@
+Station;174 Frankfurter Allee;174 Frankfurter Allee;174 Frankfurter Allee;174 Frankfurter Allee;174 Frankfurter Allee;174 Frankfurter Allee;174 Frankfurter Allee;174 Frankfurter Allee
+Messkomponente;Feinstaub (PM10);Stickstoffmonoxid;Stickstoffdioxid;Stickoxide;Ozon;Benzol;Toluol;Kohlenmonoxid
+Einheit;µg/m³;µg/m³;µg/m³;µg/m³;µg/m³;µg/m³;µg/m³;mg/m³
+Messzeit (Angaben in MESZ bzw. MEZ);pm10;no;no2;nox;o3;ben;tou;co
+
+24.01.2021 22:00;18;10;32;48;28;0.9;1.0;0.4
+24.01.2021 23:00;17;8;30;42;26;1.0;1.0;0.4
+25.01.2021 00:00;19;4;24;30;26;0.9;0.9;0.3
+25.01.2021 01:00;17;5;23;31;29;0.8;0.8;0.3
+25.01.2021 02:00;14;2;16;18;37;0.8;0.6;0.3
+25.01.2021 03:00;14;2;16;19;40;0.6;0.5;0.2
+25.01.2021 04:00;19;5;21;29;35;0.5;0.5;0.2
+25.01.2021 05:00;19;7;20;31;40;0.6;0.7;0.2
+25.01.2021 06:00;19;12;29;48;35;0.6;0.7;0.3
+25.01.2021 07:00;22;51;49;128;17;0.8;1.3;0.4
