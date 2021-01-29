@@ -18,4 +18,4 @@ The sensor used is Winsen ZE25-O3, see: https://www.winsen-sensor.com/sensors/o3
 
 ## Analysis
 
-Some trivial analysis and plotting of the data with Python.
+Some analysis and plotting of the data with Python.
