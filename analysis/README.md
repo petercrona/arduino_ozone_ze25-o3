@@ -14,18 +14,21 @@ it might give you a decent estimate of NO2 indoor also under non-normal cirumsta
 for instance if you are testing air purification technologies or are doing something that
 might generate NO2.
 
-# Results
+# Run
 
-PICTURE HERE!
+We recommend running this using venv (https://docs.python.org/3/tutorial/venv.html). The following should work:
 
-= Fitted model:
-f(x) = 7.51826819982211x + -636.9571501802109
-R2 score: 0.35825645144510676
+```
+>> git clone https://github.com/petercrona/arduino_ozone_ze25-o3.git
+>> cd arduino_ozone_ze25-o3/analysis/
+>> python -m venv env
+>> source env/bin/activate
+>> pip install -r requirements.txt
+>> cd src
+>> python main.py
+```
 
-= Correlation between analogVal and NO2:
-Pearson (correlation, pvalue): (0.5985452793608078, 0.00023368558497874713)
-SpearmanrResult(correlation=0.5725805477395661, pvalue=0.0004975120927077136)
-KendalltauResult(correlation=0.367588047373096, pvalue=0.0031259403585217425)
+When running it, you should see a scatter plot as well as some output in the console / stdout.
 
 # NO2? Shouldn't it be O3?
 During the experiment we found stronger correlation between the sensor's voltage and NO2 than O3.
