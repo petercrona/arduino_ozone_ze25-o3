@@ -1,6 +1,6 @@
 # arduino_ozone_ze25-o3
 
-Coded this for a blog post on https://www.babyfriendlyair.com where I played
+Coded this for a blog post (https://www.babyfriendlyair.com/en/technology/measuring-no2-with-a-winsen-ze25-o3-ozone-sensor/) where I played
 around with this sensor.
 
 ## Sensor
